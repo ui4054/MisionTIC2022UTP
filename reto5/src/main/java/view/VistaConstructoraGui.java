@@ -219,21 +219,25 @@ public class VistaConstructoraGui extends javax.swing.JFrame {
 
     private void jButtonLideresMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonLideresMouseClicked
         // TODO add your handling code here:
+        // carga del STRING modificado para observar en la aplicación la salida de la consola
         jTextAreaLideres.setText(VistaRequerimientosReto4.requerimiento1());
     }//GEN-LAST:event_jButtonLideresMouseClicked
 
     private void jButtonImportadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonImportadoActionPerformed
         // TODO add your handling code here:
+        // carga del STRING modificado para observar en la aplicación la salida de la consola
         jTextMaterial.setText(VistaRequerimientosReto4.requerimiento4());
     }//GEN-LAST:event_jButtonImportadoActionPerformed
 
     private void jButtonEmblematicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonEmblematicosMouseClicked
         // TODO add your handling code here:
+        // carga del STRING modificado para observar en la aplicación la salida de la consola
         jTextAreaEmblematicos.setText(VistaRequerimientosReto4.requerimiento3());
     }//GEN-LAST:event_jButtonEmblematicosMouseClicked
 
     private void jButtonEmblematicosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEmblematicosActionPerformed
         // TODO add your handling code here:
+        // carga del STRING modificado para observar en la aplicación la salida de la consola
         jTextAreaEmblematicos.setText(VistaRequerimientosReto4.requerimiento3());
     }//GEN-LAST:event_jButtonEmblematicosActionPerformed
 

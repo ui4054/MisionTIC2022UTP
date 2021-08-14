@@ -30,6 +30,7 @@ public class Main {
         
         System.out.println(VistaRequerimientosReto4.requerimiento4());
         
+        // try catch para el control de excepciones de java swing
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -46,7 +47,8 @@ public class Main {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(VistaConstructoraGui.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        
+
+        // SE INSTANCIA EL ENTORNO GRÁFICO DE LA APLICACIÓN DE CONSULTAS
         VistaConstructoraGui ventana = new VistaConstructoraGui();
         ventana.setVisible(true);
     }
